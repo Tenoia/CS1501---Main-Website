@@ -1,0 +1,14 @@
+{
+	"name": "Class4Homework",
+	"description": "Week 4 Homework Stuff",
+	"version": "0.0.1",
+	"author": "Geoffrey Chow",
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.3.x"
+	},
+	"dependencies": {
+		"express": "latest",
+		"ejs": "latest"
+	}
+}
