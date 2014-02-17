@@ -1,5 +1,5 @@
 exports.index = function(req, res) {
-	res.send("Welcome to my website for CS1501. To see some selections from my favorite music, add /watch to the current URL.");
+	res.send("Welcome to my website for CS1501. To see some selections from my favorite music, add /music to the current URL.");
 }
 
 var watchf = function(req, res) {
