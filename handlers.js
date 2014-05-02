@@ -9,4 +9,10 @@ var watchf = function(req, res) {
 	})
 }
 
+exports.bootstrap = function(req, res) {
+	res.render('bootstrap101', function(err, html) {
+		res.send(html);
+	})
+}
+
 exports.watch = watchf;
